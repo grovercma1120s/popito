@@ -5342,3 +5342,183 @@ com.google.gson.JsonSyntaxException: Unknown item 'samurai_dynasty:mask_quartz_s
 [08Dec2024 22:19:17.230] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
 [08Dec2024 22:19:34.503] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2277ms or 45 ticks behind
 [08Dec2024 22:19:37.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: grover34555556 has made the advancement [Sweet Dreams]
+[08Dec2024 22:19:54.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5456ms or 109 ticks behind
+[08Dec2024 22:20:12.492] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2566ms or 51 ticks behind
+[08Dec2024 22:23:58.196] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[08Dec2024 22:24:41.866] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3289ms or 65 ticks behind
+[08Dec2024 22:25:48.712] [LanServerPinger #1/ERROR] [net.minecraft.client.server.LanServerPinger/]: Caught previously unhandled exception :
+java.lang.OutOfMemoryError: Java heap space
+	at sun.net.util.IPAddressUtil.textToNumericFormatV4(IPAddressUtil.java:60) ~[?:?]
+	at sun.net.util.IPAddressUtil.validateNumericFormatV4(IPAddressUtil.java:145) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1644) ~[?:?]
+	at java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
+	at net.minecraft.client.server.LanServerPinger.run(LanServerPinger.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+[08Dec2024 22:25:48.721] [Worker-Main-13/ERROR] [net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager/]: Couldn't load structure dungeons_arise:keep_kayra/keep_kayra_main_0
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.HashMap.newNode(HashMap.java:1909) ~[?:?]
+	at java.util.HashMap.putVal(HashMap.java:637) ~[?:?]
+	at java.util.HashMap.put(HashMap.java:618) ~[?:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:46) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:32) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.ListTag$1.m_7300_(ListTag.java:26) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.CompoundTag.m_128413_(CompoundTag.java:474) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.CompoundTag$1.m_7300_(CompoundTag.java:32) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.NbtIo.m_128930_(NbtIo.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.NbtIo.m_128934_(NbtIo.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.nbt.NbtIo.m_128939_(NbtIo.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230377_(StructureTemplateManager.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230372_(StructureTemplateManager.java:217) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230427_(StructureTemplateManager.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager$$Lambda/0x00007d29cae467a0.apply(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230425_(StructureTemplateManager.java:108) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager$$Lambda/0x00007d29caf80d30.apply(Unknown Source) ~[?:?]
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230407_(StructureTemplateManager.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager.m_230359_(StructureTemplateManager.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement$$Lambda/0x00007d29caf80af0.apply(Unknown Source) ~[?:?]
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_227299_(SinglePoolElement.java:81) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.pools.SinglePoolElement.m_214015_(SinglePoolElement.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.aurelj.dungeons_arise.structures.ModifiedJigsawPlacement.addPieces(ModifiedJigsawPlacement.java:79) ~[DungeonsArise-1.20.1-2.1.57-release.jar%23215!/:2.1.57]
+	at net.aurelj.dungeons_arise.structures.WDAGenericStructures.m_214086_(WDAGenericStructures.java:110) ~[DungeonsArise-1.20.1-2.1.57-release.jar%23215!/:2.1.57]
+	at net.minecraft.world.level.levelgen.structure.Structure.m_262864_(Structure.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.levelgen.structure.Structure.m_226596_(Structure.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_223104_(ChunkGenerator.java:513) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.level.chunk.ChunkGenerator.m_254811_(ChunkGenerator.java:495) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+[08Dec2024 22:25:48.722] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: A single server tick took 64.52 seconds (should be max 0.05)
+[08Dec2024 22:25:48.732] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[08Dec2024 22:25:48.737] [Server thread/ERROR] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Exception caught during firing event: Java heap space
+	Index: 18
+	Listeners:
+		0: HIGHEST
+		1: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@4e1a5dd7
+		2: NORMAL
+		3: ASM: com.github.alexthe666.citadel.server.CitadelEvents@567e364 onEntityUpdateDebug(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		4: ASM: com.github.alexthe666.alexsmobs.event.ServerEvents@7c6bf6b0 onLivingUpdateEvent(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		5: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@17f4d1ad
+		6: ASM: class it.hurts.sskirillss.relics.effects.BleedingEffect$Events onLivingUpdate(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		7: ASM: insane96mcp.progressivebosses.module.elderguardian.ElderGuardianFeature@78d35f3d update(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		8: ASM: insane96mcp.progressivebosses.module.dragon.feature.RewardFeature@d4097ff onUpdate(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		9: ASM: insane96mcp.progressivebosses.module.dragon.feature.MinionFeature@1e070e5e update(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		10: ASM: insane96mcp.progressivebosses.module.dragon.feature.LarvaFeature@78333eb3 update(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		11: ASM: insane96mcp.progressivebosses.module.dragon.feature.HealthFeature@2b194af4 onUpdate(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		12: ASM: com.github.L_Ender.cataclysm.event.ServerEventHandler@39e2f226 onLivingUpdateEvent(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		13: ASM: com.mrcrayfish.framework.event.ForgeEvents@9aec138 onLivingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		14: ASM: class net.mcreator.hsbosses.init.EntityAnimationFactory onEntityTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		15: ASM: com.bobmowzie.mowziesmobs.server.ServerEventHandler@1a737e0f onLivingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		16: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@5e1c8595
+		17: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@4eb29998
+		18: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@525a917c
+		19: ASM: class com.github.alexthe666.iceandfire.entity.props.CapabilityHandler tickData(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		20: ASM: com.github.alexmodguy.alexscaves.server.event.CommonEvents@79765616 livingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		21: ASM: class net.mcreator.borninchaosv.init.EntityAnimationFactory onEntityTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		22: ASM: class io.redspace.ironsspellbooks.player.ServerPlayerEvents onLivingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		23: ASM: class io.redspace.ironsspellbooks.effect.guiding_bolt.GuidingBoltManager livingTick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		24: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@63924b23
+		25: ASM: class com.simibubi.create.foundation.events.CommonEvents onUpdateLivingEntity(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		26: ASM: class com.simibubi.create.content.equipment.extendoGrip.ExtendoGripItem holdingExtendoGripIncreasesRange(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		27: ASM: class com.simibubi.create.content.equipment.armor.DivingHelmetItem breatheUnderwater(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		28: ASM: class com.simibubi.create.content.equipment.armor.DivingBootsItem accellerateDescentUnderwater(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		29: net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768@59185ae9
+		30: ASM: org.cyclops.evilcraft.event.LivingUpdateEventHook@223020fe tick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		31: ASM: top.theillusivec4.curios.common.event.CuriosEventHandler@8a210f1 tick(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+		32: ASM: com.github.alexthe666.iceandfire.event.ServerEvents@706d88b8 onEntityUpdate(Lnet/minecraftforge/event/entity/living/LivingEvent$LivingTickEvent;)V
+java.lang.OutOfMemoryError: Java heap space
+	at TRANSFORMER/mmorpg@5.9.25/com.robertx22.mine_and_slash.event_hooks.my_events.CachedEntityStats.<init>(CachedEntityStats.java:54)
+	at TRANSFORMER/mmorpg@5.9.25/com.robertx22.mine_and_slash.capability.entity.EntityData.<init>(EntityData.java:113)
+	at TRANSFORMER/mmorpg@5.9.25/com.robertx22.mine_and_slash.uncommon.datasaving.Load.Unit(Load.java:22)
+	at TRANSFORMER/mmorpg@5.9.25/com.robertx22.mine_and_slash.event_hooks.my_events.OnEntityTick.onTick(OnEntityTick.java:33)
+	at TRANSFORMER/mmorpg@5.9.25/com.robertx22.mine_and_slash.mmorpg.event_registers.CommonEvents.lambda$register$13(CommonEvents.java:233)
+	at TRANSFORMER/mmorpg@5.9.25/com.robertx22.mine_and_slash.mmorpg.event_registers.CommonEvents$$Lambda/0x00007d29c94146e8.accept(Unknown Source)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768.invoke(Unknown Source)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b59720.invoke(Unknown Source)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
+	at TRANSFORMER/forge@47.3.0/net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:264)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2258)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.Mob.m_8119_(Mob.java:337)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.entity.monster.Spider.m_8119_(Spider.java:79)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel$$Lambda/0x00007d29cb01f4c8.accept(Unknown Source)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.Level.m_46653_(Level.java:479)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel$$Lambda/0x00007d29cb005b90.accept(Unknown Source)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer$$Lambda/0x00007d29cae3e9e8.run(Unknown Source)
+	at java.base/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[08Dec2024 22:25:49.258] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraft.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:897) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at com.robertx22.mine_and_slash.event_hooks.my_events.CachedEntityStats.<init>(CachedEntityStats.java:54) ~[Mine_and_Slash-1.20.1-5.9.25.jar%23241!/:?]
+	at com.robertx22.mine_and_slash.capability.entity.EntityData.<init>(EntityData.java:113) ~[Mine_and_Slash-1.20.1-5.9.25.jar%23241!/:?]
+	at com.robertx22.mine_and_slash.uncommon.datasaving.Load.Unit(Load.java:22) ~[Mine_and_Slash-1.20.1-5.9.25.jar%23241!/:?]
+	at com.robertx22.mine_and_slash.event_hooks.my_events.OnEntityTick.onTick(OnEntityTick.java:33) ~[Mine_and_Slash-1.20.1-5.9.25.jar%23241!/:?]
+	at com.robertx22.mine_and_slash.mmorpg.event_registers.CommonEvents.lambda$register$13(CommonEvents.java:233) ~[Mine_and_Slash-1.20.1-5.9.25.jar%23241!/:?]
+	at com.robertx22.mine_and_slash.mmorpg.event_registers.CommonEvents$$Lambda/0x00007d29c94146e8.accept(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b3d768.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda/0x00007d29c8b59720.invoke(Unknown Source) ~[?:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.common.ForgeHooks.onLivingTick(ForgeHooks.java:264) ~[forge-1.20.1-47.3.0-universal.jar%23286!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2258) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.world.entity.monster.Spider.m_8119_(Spider.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.level.ServerLevel$$Lambda/0x00007d29cb01f4c8.accept(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.level.ServerLevel$$Lambda/0x00007d29cb005b90.accept(Unknown Source) ~[?:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23281!/:?]
+	at net.minecraft.server.MinecraftServer$$Lambda/0x00007d29cae3e9e8.run(Unknown Source) ~[?:?]
+	at java.lang.Thread.runWith(Thread.java:1596) ~[?:?]
+	... 1 more
+[08Dec2024 22:25:49.572] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 9ab03eb8-474f-4148-9ea6-30a928dd8151
+[08Dec2024 22:25:49.573] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/popito/servidor_minecraft/./crash-reports/crash-2024-12-08_22.25.49-server.txt
+[08Dec2024 22:25:49.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Dec2024 22:25:49.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Dec2024 22:25:49.603] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: grover34555556 lost connection: Server closed
+[08Dec2024 22:25:49.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: grover34555556 left the game
+[08Dec2024 22:25:49.615] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID b176c57a-e896-4a0c-99a1-1114276bf9a7
+[08Dec2024 22:25:49.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Dec2024 22:25:49.757] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 7c3c1199-dc2c-4982-bee8-1f9ead8d11f9
+[08Dec2024 22:25:49.766] [Server Watchdog/ERROR] [net.minecraft.server.dedicated.ServerWatchdog/]: This crash report has been saved to: /workspaces/popito/servidor_minecraft/./crash-reports/crash-2024-12-08_22.25.49-server.txt
+[08Dec2024 22:25:57.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Dec2024 22:25:57.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_bumblezone:the_bumblezone
+[08Dec2024 22:25:57.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mmorpg:dungeon
+[08Dec2024 22:25:57.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Dec2024 22:25:57.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Dec2024 22:25:57.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Dec2024 22:25:57.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[08Dec2024 22:25:57.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon): All chunks are saved
+[08Dec2024 22:25:57.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Dec2024 22:25:57.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Dec2024 22:25:57.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Dec2024 22:25:58.033] [Server thread/INFO] [Framework/]: Unloading server configs...
+[08Dec2024 22:25:58.036] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[08Dec2024 22:25:58.043] [Server thread/INFO] [Framework/]: Finished unloading server configs

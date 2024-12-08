@@ -1963,6 +1963,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-08 22:19:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
       "in_water": "2024-12-08 22:06:51 +0000"
@@ -1996,6 +2002,12 @@
   "stoneworks:recipes/building_blocks/diorite_tiles_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2024-12-08 22:00:31 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_planks": {
+    "criteria": {
+      "has_logs": "2024-12-08 22:23:05 +0000"
     },
     "done": true
   },
@@ -2080,6 +2092,12 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2024-12-08 21:59:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2024-12-08 22:14:52 +0000"
     },
     "done": true
   },
@@ -2380,6 +2398,12 @@
   "create:recipes/building_blocks/cut_diorite_bricks_from_stone_types_diorite_stonecutting": {
     "criteria": {
       "has_stone_types_diorite": "2024-12-08 22:00:31 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2024-12-08 22:16:31 +0000"
     },
     "done": true
   },
@@ -2689,11 +2713,23 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2024-12-08 22:14:52 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/wooden_tomahawk": {
     "criteria": {
       "has_wood": "2024-12-08 21:59:44 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_mutton": "2024-12-08 22:14:54 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
@@ -3067,6 +3103,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2024-12-08 22:14:52 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/crafting/kinetics/green_seat": {
     "criteria": {
       "has_wool": "2024-12-08 22:08:40 +0000"
@@ -3256,6 +3298,9 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "jacaranda_glade": "2024-12-08 22:13:37 +0000",
+      "orchard": "2024-12-08 22:21:45 +0000",
+      "redwood_forest": "2024-12-08 22:21:17 +0000",
+      "dune_beach": "2024-12-08 22:20:40 +0000",
       "lavender_field": "2024-12-08 22:10:01 +0000"
     },
     "done": false
@@ -3287,6 +3332,12 @@
   "spartanweaponry:recipes/wooden_halberd": {
     "criteria": {
       "has_wood": "2024-12-08 21:59:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-12-08 22:14:54 +0000"
     },
     "done": true
   },
